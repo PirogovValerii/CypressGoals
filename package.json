@@ -5,6 +5,7 @@
     "test": "cypress run"
   },
   "devDependencies": {
-    "cypress": "^13.1.0"
+    "cypress": "^13.1.0",
+    "@faker-js/faker": "^8.0.2"
   }
 }
