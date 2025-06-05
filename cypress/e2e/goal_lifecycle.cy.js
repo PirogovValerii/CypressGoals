@@ -1,6 +1,7 @@
 import { faker } from '@faker-js/faker';
-import { createSpace, createList } from '../../support/api_helpers';
-import { createGoal, updateGoal, deleteGoal } from '../../support/goal_helpers';
+import { createSpace, createList } from '../support/api_helpers';
+import { createGoal, updateGoal, deleteGoal } from '../support/goal_helpers';
+
 
 describe('ClickUp Goal API Lifecycle', () => {
     it('creates, updates and deletes a goal', () => {
